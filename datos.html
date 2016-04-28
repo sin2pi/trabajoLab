@@ -14,30 +14,53 @@
 <div id="datos">
     <h4>Ingrese los valores iniciales</h4>
     <br>
-    Velocidad Inicial 1 (m/s):
-    <input id="input" type="number" value="vel1"> <br>
-    <br>
-    Velocidad Inicial 2 (m/s):
-    <input id="input" type="number" value="vel2"> <br>
-    <br>
+    Velocidad Inicial 1:
+    <input id="input" type="number" value="vel1">
+    <select name="unidades">
+        <option value="ms">m/s</option>
+        <option value="kmh">km/h</option>
+    </select>
+    <br><br>
+    Velocidad Inicial 2:
+    <input id="input" type="number" value="vel2"> 
+    <select name="unidades">
+        <option value="ms">m/s</option>
+        <option value="kmh">km/h</option>
+    </select>
+    <br><br>
     Masa 1 (proporcional al radio):
-    <input id="input" type="number" value="masa1"> <br>
-    <br>
+    <input id="input" type="number" value="masa1"> 
+    <select name="unidades">
+        <option value="g">gramos</option>
+        <option value="kg">kilogramos</option>
+    </select>
+    <br><br>
     Masa 2 (proporcional al radio):
-    <input id="input" type="number" value="masa2"> <br>
-    <br>
+    <input id="input" type="number" value="masa2"> 
+    <select name="unidades">
+        <option value="g">gramos</option>
+        <option value="kg">kilogramos</option>
+    </select>
+    <br><br>
     Coeficiente de friccion:
-    <input id="input" type="number" value="mu"> <br>
-    <br>
+    <input id="input" type="number" value="mu"> 
+        <select name="unidades">
+            <option value="g">valor adimencional bobo</option>
+            <option value="g">valor adimencional bobo</option>
+            <option value="g">valor adimencional bobo</option>
+            <option value="g">valor adimencional bobo</option>
+        </select>
+    <br><br>
 
 
     <button id="boton" type="button" onclick="window.location.href='resultado.html'">Calcular</button> <br>
 
-        <br>
+    <br>
 
 
 
 </div>
+
 
 
 
